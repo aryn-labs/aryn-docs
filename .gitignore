@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+**/secrets/
+*.tmp
+~$*
+.DS_Store
+Thumbs.db
