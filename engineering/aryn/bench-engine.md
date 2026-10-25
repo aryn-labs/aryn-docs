@@ -1,5 +1,34 @@
 # Generic Bench Evaluation Engine
 
+## Reviewed operational suite authoring
+
+Core now persists immutable project-scoped suite versions and safe scenario candidates.
+Authoring accepts bounded literal expectations/forbidden text, prompts, scenario IDs,
+timeouts and installed native tool selections. It accepts no Python, JavaScript,
+regular expression, arbitrary grader configuration or security-check removal.
+Core compiles declarations into this same runner and mandatory identity, integrity,
+confinement, schema, resource and permission graders. Every scenario is required.
+
+A human `bench_suite` approval binds the exact suite digest before Factory may select
+it; every later resolution revalidates current approver authority, signature, protected
+head, definition hash and version. Suite selection grants no tool permission. Native
+scenarios additionally require the AgentVersion's exact current Core-reviewed native
+bindings and the immutable isolated Hermes worker. Existing baseline comparison,
+critical regression denial, publication and assignment rules remain authoritative.
+
+The authenticated scenario projection includes actual Core tool receipts and invocation
+timings/output bytes when measured. Missing token, cost, CPU or memory observations
+remain unavailable; configured limits never become measured usage. Signed regression
+exports recompute existing evaluation/comparison evidence. A failed verified evaluation
+or incident capsule can propose a declarative candidate, requiring separate exact
+human review before adoption; replay never authorizes promotion or live tools.
+
+`tests/native_worker_check.py --manifest <reviewed-worker-manifest>` executes actual
+Hermes handlers through a persisted reviewed Bench suite, demonstrates a deliberate
+regression and rejected promotion, then a passing reviewed publication in a disposable
+database. Its model decisions remain explicitly offline test doubles. Live 9Router
+provider-configuration provenance remains unavailable; this proof is not live inference.
+
 15 October 2026: `governed-mcp` 1.0.0 adds the narrowly scoped
 `read_only_mcp_fixture` isolation profile to the existing runner and suite registry.
 It requires the current Core-approved `aryn_mcp_project_lookup` binding and actual

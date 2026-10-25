@@ -14,6 +14,12 @@ Raw hashes preserve the original local copy and its subsequent link rebasing.
 The additional content hashes normalize CRLF to LF so verification also works
 after Git checkout on another operating system; original copy hashes are retained.
 
+The evidence/recovery and Bench contracts also describe the current operational
+intelligence implementation. Import hashes identify the historical transfer at
+`e826deba288803d8d52d51e176be5e4d8ab0fd04`; later edits are ordinary engineering
+maintenance and do not rewrite that provenance or approve a new corporate baseline.
+Local validation of uncommitted changes is separate from commit-bound CI delivery.
+
 - [9router-gateway.md](9router-gateway.md)
 - [agent-factory-canvas.md](agent-factory-canvas.md)
 - [agent-factory-contracts.md](agent-factory-contracts.md)
